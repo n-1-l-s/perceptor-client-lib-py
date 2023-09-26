@@ -1,0 +1,13 @@
+/env/
+__pycache__/
+/.idea/
+/dist/
+/src/perceptor_logger_tamedai.egg-info/
+/ub_env/
+/win_env/
+
+/docker/service-account.json
+/test/example_invoice.png
+/src/perceptor_client_lib.egg-info/
+
+.DS_Store

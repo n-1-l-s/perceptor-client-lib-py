@@ -20,20 +20,19 @@ setup(
     name='perceptor_client_lib',  # How you named your package folder (MyLib)
     license='LICENSE.TXT',
     description='Python Client for TamedAI Api',
-    author='TamedAI',  # Type in your name
-    author_email='your.email@domain.com',  # TODO - Provide correct email
+    author='TamedAI GmbH',  # Type in your name
+    author_email='perceptor@tamed.ai',
     url='https://www.tamed.ai/',
-    keywords=['TamedAI'],
+    keywords=['TamedAI', 'IDP', 'Perceptor', 'LLM'],
     install_requires=[  # I get to this in a second
         'annotated-types==0.5.0',
         'certifi==2023.7.22',
         'charset-normalizer==3.2.0',
         'idna==3.4',
+        'pdf2image==1.16.3',
         'Pillow==10.0.1',
         'pydantic==2.3.0',
         'pydantic_core==2.6.3',
-        'PyMuPDF==1.23.3',
-        'PyMuPDFb==1.23.3',
         'requests==2.31.0',
         'six==1.16.0',
         'sseclient-py==1.8.0',

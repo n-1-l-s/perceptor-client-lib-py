@@ -1,7 +1,8 @@
+from tests_commons import create_client
 import logging
 
 from perceptor_client_lib.external_models import PerceptorRequest
-from tests_commons import create_client
+
 
 logging.basicConfig(level=logging.DEBUG)
 

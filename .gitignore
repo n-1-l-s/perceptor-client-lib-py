@@ -5,9 +5,10 @@ __pycache__/
 /src/perceptor_logger_tamedai.egg-info/
 /ub_env/
 /win_env/
+.DS_Store
+/test/.DS_Store
 
 /docker/service-account.json
 /test/example_invoice.png
 /src/perceptor_client_lib.egg-info/
-
-.DS_Store
+/Poppler_Bin/

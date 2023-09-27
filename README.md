@@ -4,6 +4,9 @@
 
 to be described here
 
+## Installing _poppler_
+If you want to use pdf processing functionality, [follow this instructions](https://pypi.org/project/pdf2image/) to install _popppler_ on your machine.
+On Windows, if the poppler "bin" path is not added to PATH, you have to set the environment variable POPPLER_PATH to point to _bin_.
 
 ## Usage
 
@@ -82,6 +85,7 @@ result = perceptor_client.ask_table_from_image("path_to_image_file",
 ```
 
 ### Sending instructions for a pdf document
+
 From document file:
 ```python
 result = perceptor_client.ask_document("path_to_document_file",

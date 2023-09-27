@@ -3,6 +3,9 @@
     <module name="perceptor-client-lib-py" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
+    <envs>
+      <env name="POPPLER_PATH" value="Poppler_Bin" />
+    </envs>
     <option name="SDK_HOME" value="C:\VisualStudio\TamedAI\client_libs\perceptor-client-lib-py\win_env\Scripts\python.exe" />
     <option name="SDK_NAME" value="Python 3.9 (perceptor-client-lib-py)" />
     <option name="WORKING_DIRECTORY" value="" />
